@@ -1,0 +1,133 @@
+@media only screen and (max-width: 920px) {
+    .texto{
+        margin-left: 25px;
+    }
+    .contenedorTexto .t1, .contenedorTexto .t2, .contenedorTexto .t3{
+        font-size: 8vh;
+    }
+    h1 {
+        line-height: 50px;
+    }
+    .imagen img {
+        max-height: 50%;
+    }
+}
+
+@media only screen and (max-width: 867px) {
+    .texto{
+        margin-left: 25px;
+    }
+    .contenedorTexto .t1 {
+        font-size: 8vh;
+    }
+    .contenedorTexto .t2 {
+        font-size: 8vh;
+    }
+    .contenedorTexto .t3 {
+        font-size: 8vh;
+    }
+
+    h1 {
+        line-height: 7vh;
+    }
+    .imagen img {
+        max-height: 50%;
+    }
+    .navbar-collapse {
+        z-index: 100;
+        background-color: #292929;
+        border: solid 1px #f9b114;
+        color: white !important;
+    }
+    .nav-link {
+        color: white !important;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    .texto{
+        margin-left: 25px;
+    }
+    .contenedorTexto .t1 {
+        font-size: 6vh;
+    }
+    .contenedorTexto .t2 {
+        font-size: 6vh;
+    }
+    .contenedorTexto .t3 {
+        font-size: 6vh;
+    }
+    h1 {
+        line-height: 5vh;
+    }
+
+    .imagen img {
+        max-height: 50%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .texto{
+        margin-left: 25px;
+    }
+
+    h1 {
+        line-height: 18px;
+    }
+    .contenedorTexto .t1 {
+        font-size: 5vh;
+
+    }
+    .contenedorTexto .t2 {
+        font-size: 5vh;
+    }
+    .contenedorTexto .t3 {
+        font-size: 5vh;
+    }
+
+    .imagen img {
+        max-height: 50%;
+    }
+
+    h1 {
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    
+    .imagen img {
+        max-height: 60%;
+    }
+    .texto{
+        margin-left: 20px;
+    }
+    .texto h1 {
+        font-size: 1vh;
+    }
+    .texto a{
+        font-size: smaller;
+    }
+    .borderR{
+        padding: 8px 35px;
+    }
+    .navbar-brand img {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 328px) {
+    
+    .contenedorTexto .t1 {
+        font-size: 3vh;
+    }
+    .contenedorTexto .t2 {
+        font-size: 3vh;
+    }
+    .contenedorTexto .t3 {
+        font-size: 3vh;
+    }
+    h1 {
+        line-height: 5px;
+    }
+}
