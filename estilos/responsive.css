@@ -11,6 +11,12 @@
   .imagen img {
     max-height: 50%;
   }
+  .product-box img {
+    max-width: 60%;
+  }
+  .materiaPrima {
+    margin-bottom: 120px;
+  }
 }
 
 @media only screen and (max-width: 867px) {
@@ -61,6 +67,12 @@
   }
   .imagen img {
     max-height: 50%;
+  }
+  .enlaceContacto {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #fff !important;
   }
 }
 
